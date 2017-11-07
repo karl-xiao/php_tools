@@ -1,3 +1,10 @@
+/**
+ * 二维数组排序
+ * @param array $array
+ * @param $sortKey
+ * @param string $sortType
+ * @return array
+ */
 function multiArrSort(array $array, $sortKey, $sortType = 'ASC') {
     if (!is_array($array) || empty($array)) {
         return array();
