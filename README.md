@@ -34,3 +34,11 @@ array (size=3)
     array (size=2)  
       'name' => string 'ef' (length=2)  
       'age' => int 30  
+      
+## readDirFiles  
+读取文件夹下所有文件  
+```php
+$service = index::getInstance();
+$ret     = $service::readFiles('temp');
+exit();
+```
