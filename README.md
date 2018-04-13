@@ -42,3 +42,6 @@ $service = index::getInstance();
 $ret     = $service::readFiles('temp');
 exit();
 ```
+## downLoadFile  
+下载远程图片到本地  
+直接使用函数下载，需要根据场景调整超时时间
